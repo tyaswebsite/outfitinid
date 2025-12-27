@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OUTFITIN ID</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/logo.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+
+  <div class="top-bar py-2 d-none d-lg-block">
+    <div class="container-fluid container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center">
+            <div class="top-bar-item me-4">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Layanan Pelanggan: </span>
+              <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                +62 895-6390-68080
+              </a>
+            </div>
+            <div class="top-bar-item">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:support@outfitin.id">support@outfitin.id</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container-fluid container-xl">
+      <div class="d-flex py-3 align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">OUTFITIN<span>ID</span></h1>
+        </a>
+
+        <form action="category.html" method="GET" class="search-form desktop-search-form d-none d-xl-block">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Cari outfit favoritmu...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="d-flex align-items-center">
+          
+          <button class="header-action-btn mobile-search-toggle d-xl-none me-3 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+            <i class="bi bi-search fs-4 text-dark"></i>
+          </button>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list fs-2 cursor-pointer text-dark"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container-fluid container-xl position-relative">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="category.html">Kategori</a></li>
+          <li><a href="cart.html">Keranjang</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="brands.html">Brand</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="announcement-bar py-2">
+    <div class="container-fluid container-xl">
+      <div class="announcement-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": 1, "effect": "slide", "direction": "vertical" }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">🚚 Gratis ongkir seluruh Indonesia</div>
+          <div class="swiper-slide">💰 Garansi uang kembali 30 hari</div>
+          <div class="swiper-slide">⚡ Flash Sale Setiap Hari!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="collapse" id="mobileSearch">
+    <div class="container py-2">
+      <form action="category.html" method="GET" class="search-form">
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="Cari produk...">
+          <button class="btn search-btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+
+
+  <main class="main">
+
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="current">Keranjang</li>
+          </ol>
+        </nav>
+        <h1>Keranjang Belanja</h1>
+      </div>
+    </div>
+    
+    <section id="cart" class="cart section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+        <div class="cart-items">
+          
+          <div class="cart-header d-none d-lg-block">
+            <div class="row align-items-center">
+              <div class="col-lg-6"><h5>Produk</h5></div>
+              <div class="col-lg-2 text-center"><h5>Harga</h5></div>
+              <div class="col-lg-2 text-center"><h5>Jumlah</h5></div>
+              <div class="col-lg-2 text-center"><h5>Total</h5></div>
+            </div>
+          </div>
+
+          <div id="cart-items-container">
+            </div>
+
+          <div class="cart-actions mt-4">
+            <div class="row">
+              <div class="col-lg-6 mb-3 mb-lg-0">
+                <div class="coupon-form">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Kode Promo (Contoh: HEMAT)" id="coupon-input">
+                    <button class="btn btn-outline-accent" type="button" onclick="applyCoupon()">Pakai Kupon</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 text-md-end">
+                <button class="btn btn-outline-remove" onclick="clearCart()">
+                  <i class="bi bi-trash"></i> Kosongkan Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+        <div class="cart-summary">
+          <h4 class="summary-title">Ringkasan Pesanan</h4>
+
+          <div class="summary-item">
+            <span class="summary-label">Total Berat</span>
+            <span class="summary-value" id="summary-weight">0 gr</span>
+          </div>
+
+          <div class="summary-item">
+            <span class="summary-label">Subtotal</span>
+            <span class="summary-value" id="summary-subtotal">Rp 0</span>
+          </div>
+
+          <div class="summary-item">
+            <span class="summary-label">Pajak (11%)</span>
+            <span class="summary-value" id="summary-tax">Rp 0</span>
+          </div>
+
+          <div class="summary-item discount text-success">
+            <span class="summary-label">Diskon</span>
+            <span class="summary-value" id="summary-discount">-Rp 0</span>
+          </div>
+
+          <hr>
+
+      <div class="summary-total">
+            <span class="summary-label">Total Bayar</span>
+            <span class="summary-value" id="summary-total">Rp 0</span>
+          </div>
+
+          <div class="checkout-button">
+            <button onclick="proceedToCheckout()" class="btn btn-accent w-100">
+              Lanjut Pembayaran <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="continue-shopping">
+            <a href="category.html" class="btn btn-link w-100">
+              <i class="bi bi-arrow-left"></i> Lanjut Belanja
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </main>
+
+    <footer id="footer" class="footer light-background">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget footer-about">
+            <a href="index.html" class="logo">
+              <span class="sitename">OUTFITIN<span>ID</span></span>
+            </a>
+            <p>Fashion terbaru untuk gaya sehari-hari. Temukan outfit favoritmu dengan mudah dan nyaman bersama kami.</p>
+
+            <div class="social-links mt-4">
+              <h5>Ikuti Kami</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Menu Utama</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="category.html">Kategori</a></li>
+              <li><a href="promo.html">Promo</a></li>
+              <li><a href="brands.html">Brand</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Bantuan</h4>
+            <ul class="footer-links">
+              <li><a href="cart.html">Keranjang Belanja</a></li>
+              <li><a href="contact.html">Konfirmasi Pembayaran</a></li>
+              <li><a href="faq.html">FAQ (Tanya Jawab)</a></li>
+              <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h4>Hubungi Kami</h4>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Jakarta, Indonesia</span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <span>
+                  <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                    +62 895-6390-68080
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <span><a href="mailto:support@outfitin.id">support@outfitin.id</a></span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <span>Senin - Jumat: 09.00 - 18.00<br>Sabtu: 10.00 - 16.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            <p>© <span>Copyright</span> <strong class="sitename">OUTFITIN ID</strong>. All Rights Reserved.</p>
+          </div>
+          <div class="credits mt-1">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+
+            <div class="legal-links">
+              <a href="tos.html">Syarat & Ketentuan</a>
+              <a href="privacy.html">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    loadCart();
+});
+
+/* ================= KONFIGURASI KUPON ================= */
+const COUPON_CODES = {
+    'MYFAVORITE': 0.25,
+    'SANTAIDAY': 0.25,
+    'SPECIALTODAY': 0.50,
+    'MODERNSTYLE': 0.50
+};
+
+let currentDiscountRate = 0;
+let activeCouponCode = "";
+
+// Global
+let currentTotalWeight = 0;
+let currentGrandTotal = 0;
+
+/* ================= LOAD CART ================= */
+function loadCart() {
+
+    // 🔥 RESET KUPON SETIAP LOAD (FINAL & BENAR)
+    currentDiscountRate = 0;
+    activeCouponCode = "";
+    localStorage.removeItem('activeCoupon');
+
+    const input = document.getElementById('coupon-input');
+    if (input) input.value = "";
+
+    const container = document.getElementById('cart-items-container');
+    let cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+    const productStockDB = JSON.parse(localStorage.getItem('productStock')) || {};
+
+    if (cart.length === 0) {
+        container.innerHTML = `
+            <div class="text-center py-5">
+                <i class="bi bi-cart-x" style="font-size:3rem;color:#ccc;"></i>
+                <h4 class="mt-3">Keranjang Belanja Kosong</h4>
+                <a href="category.html" class="btn btn-primary mt-3" style="background-color:#8c0d4f;">Belanja Sekarang</a>
+            </div>
+        `;
+        updateSummaryDisplay(0, 0, 0, 0, 0);
+        return;
+    }
+
+    let html = '';
+    cart.forEach((item, index) => {
+
+        const realStock = productStockDB[item.id] !== undefined
+            ? productStockDB[item.id]
+            : item.stock;
+
+        const isMaxStock = item.qty >= realStock;
+        const stockWarning = realStock === 0 ? '<span class="text-danger fw-bold">(Stok Habis)</span>' : '';
+
+        // 🔒 DEFAULT BERAT 200 GRAM
+        const beratDisplay = parseInt(item.weight) || 200;
+
+        html += `
+        <div class="cart-item border-bottom py-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 mb-3 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <div class="me-3" style="width:80px">
+                            <img src="${item.image}" class="img-fluid rounded"
+                                 onerror="this.src='https://via.placeholder.com/80'">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">${item.name} ${stockWarning}</h6>
+                            <div class="small text-muted mb-2">
+                                Warna: ${item.color} | Ukuran: ${item.size}<br>
+                                Berat: ${beratDisplay} g<br>
+                                <span class="text-info">Stok: ${realStock}</span>
+                            </div>
+                            <button class="btn btn-sm text-danger p-0"
+                                    onclick="removeItem(${index})">
+                                <i class="bi bi-trash"></i> Hapus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 text-lg-center fw-bold">
+                    ${formatRupiah(item.price)}
+                </div>
+
+                <div class="col-lg-2 col-6 text-center">
+                    <div class="input-group input-group-sm" style="width:100px;margin:auto">
+                        <button class="btn btn-outline-secondary"
+                                onclick="updateQty(${index}, -1)">-</button>
+                        <input type="text" class="form-control text-center bg-white"
+                               value="${item.qty}" readonly>
+                        <button class="btn btn-outline-secondary"
+                                onclick="updateQty(${index}, 1)"
+                                ${isMaxStock ? 'disabled' : ''}>+</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-12 text-lg-center mt-3 mt-lg-0 fw-bold text-primary">
+                    ${formatRupiah(item.price * item.qty)}
+                </div>
+            </div>
+        </div>`;
+    });
+
+    container.innerHTML = html;
+    calculateSummary(cart);
+}
+
+/* ================= UPDATE QTY ================= */
+function updateQty(index, change) {
+    let cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+    let item = cart[index];
+    let newQty = item.qty + change;
+
+    const productStockDB = JSON.parse(localStorage.getItem('productStock')) || {};
+    const realStock = productStockDB[item.id] !== undefined
+        ? productStockDB[item.id]
+        : item.stock;
+
+    if (newQty < 1) return;
+    if (newQty > realStock) {
+        alert(`Stok tersisa ${realStock}`);
+        return;
+    }
+
+    item.qty = newQty;
+    item.totalPrice = item.price * newQty;
+    localStorage.setItem('shoppingCart', JSON.stringify(cart));
+    loadCart();
+}
+
+/* ================= REMOVE ================= */
+function removeItem(index) {
+    if (confirm('Hapus produk ini?')) {
+        let cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+        cart.splice(index, 1);
+        localStorage.setItem('shoppingCart', JSON.stringify(cart));
+        loadCart();
+    }
+}
+
+/* ================= CLEAR ================= */
+function clearCart() {
+    if (confirm('Kosongkan keranjang?')) {
+        localStorage.removeItem('shoppingCart');
+        localStorage.removeItem('activeCoupon');
+        loadCart();
+    }
+}
+
+/* ================= KUPON ================= */
+function applyCoupon() {
+    const code = document.getElementById('coupon-input').value.trim().toUpperCase();
+    if (!code) return alert("Masukkan kode kupon");
+
+    if (COUPON_CODES[code]) {
+        currentDiscountRate = COUPON_CODES[code];
+        activeCouponCode = code;
+        localStorage.setItem('activeCoupon', JSON.stringify({
+            code, rate: currentDiscountRate
+        }));
+        alert(`Kupon ${code} aktif`);
+    } else {
+        alert("Kode kupon tidak valid");
+        currentDiscountRate = 0;
+        activeCouponCode = "";
+        localStorage.removeItem('activeCoupon');
+    }
+
+    calculateSummary(JSON.parse(localStorage.getItem('shoppingCart')) || []);
+}
+
+/* ================= SUMMARY ================= */
+function calculateSummary(cart) {
+    let subtotal = 0;
+    let totalWeight = 0;
+
+    cart.forEach(item => {
+        subtotal += item.totalPrice;
+        let w = parseInt(item.weight) || 200;
+        totalWeight += w * item.qty;
+    });
+
+    let tax = subtotal * 0.11;
+    let discount = subtotal * currentDiscountRate;
+    let total = (subtotal + tax) - discount;
+
+    currentTotalWeight = totalWeight;
+    currentGrandTotal = total;
+
+    updateSummaryDisplay(subtotal, tax, discount, total, totalWeight);
+}
+
+function updateSummaryDisplay(subtotal, tax, discount, total, weight) {
+    document.getElementById('summary-subtotal').innerText = formatRupiah(subtotal);
+    document.getElementById('summary-tax').innerText = formatRupiah(tax);
+    document.getElementById('summary-discount').innerHTML =
+        discount > 0 ? `- ${formatRupiah(discount)}<br><small>(${activeCouponCode})</small>` : '- Rp 0';
+    document.getElementById('summary-total').innerText = formatRupiah(total);
+    document.getElementById('summary-weight').innerText =
+        weight >= 1000 ? (weight/1000).toFixed(1)+' Kg' : weight+' Gram';
+}
+
+/* ================= CHECKOUT ================= */
+function proceedToCheckout() {
+    let cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+    if (cart.length === 0) return alert("Keranjang kosong");
+
+    let subtotal = cart.reduce((a,b)=>a+b.totalPrice,0);
+    let tax = subtotal * 0.11;
+    let discount = subtotal * currentDiscountRate;
+    let grandTotal = (subtotal + tax) - discount;
+
+    const checkoutData = {
+        items: cart.map(i => ({
+    ...i,
+    weight: parseInt(i.weight) || 200,
+    variant: `Warna: ${i.color || '-'} | Ukuran: ${i.size || '-'}`
+})),
+        subtotal,
+        tax,
+        discount,
+        totalWeight: currentTotalWeight,
+        grandTotal
+    };
+
+    localStorage.setItem('checkoutData', JSON.stringify(checkoutData));
+    window.location.href = 'checkout.html';
+}
+
+/* ================= HELPER ================= */
+function formatRupiah(num) {
+    return new Intl.NumberFormat('id-ID', {
+        style: 'currency',
+        currency: 'IDR',
+        minimumFractionDigits: 0
+    }).format(num);
+}
+</script>
+
+</body>
+
+</html>

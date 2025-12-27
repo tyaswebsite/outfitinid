@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OUTFITIN ID</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/logo.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+
+  <div class="top-bar py-2 d-none d-lg-block">
+    <div class="container-fluid container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center">
+            <div class="top-bar-item me-4">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Layanan Pelanggan: </span>
+              <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                +62 895-6390-68080
+              </a>
+            </div>
+            <div class="top-bar-item">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:support@outfitin.id">support@outfitin.id</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container-fluid container-xl">
+      <div class="d-flex py-3 align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">OUTFITIN<span>ID</span></h1>
+        </a>
+
+        <form action="category.html" method="GET" class="search-form desktop-search-form d-none d-xl-block">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Cari outfit favoritmu...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="d-flex align-items-center">
+          
+          <button class="header-action-btn mobile-search-toggle d-xl-none me-3 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+            <i class="bi bi-search fs-4 text-dark"></i>
+          </button>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list fs-2 cursor-pointer text-dark"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container-fluid container-xl position-relative">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="category.html">Kategori</a></li>
+          <li><a href="cart.html">Keranjang</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="brands.html">Brand</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="announcement-bar py-2">
+    <div class="container-fluid container-xl">
+      <div class="announcement-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": 1, "effect": "slide", "direction": "vertical" }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">🚚 Gratis ongkir seluruh Indonesia</div>
+          <div class="swiper-slide">💰 Garansi uang kembali 30 hari</div>
+          <div class="swiper-slide">⚡ Flash Sale Setiap Hari!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="collapse" id="mobileSearch">
+    <div class="container py-2">
+      <form action="category.html" method="GET" class="search-form">
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="Cari produk...">
+          <button class="btn search-btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+
+  <main class="main">
+
+  <div class="page-title light-background">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Beranda</a></li>
+          <li class="current">Syarat & Ketentuan</li>
+        </ol>
+      </nav>
+      <h1>Syarat & Ketentuan</h1>
+    </div>
+  </div><section id="terms-of-service" class="terms-of-service section">
+
+    <div class="container" data-aos="fade-up">
+      <div class="tos-header text-center" data-aos="fade-up">
+        <span class="last-updated">Terakhir Diperbarui: Desember 2025</span>
+        <h2>Syarat & Ketentuan Penggunaan</h2>
+        <p>Mohon baca syarat dan ketentuan ini dengan saksama sebelum berbelanja di OUTFITIN ID</p>
+      </div>
+
+      <div class="tos-content" data-aos="fade-up" data-aos-delay="200">
+        
+        <div id="agreement" class="content-section">
+          <h3>1. Persetujuan Syarat</h3>
+          <p>Selamat datang di OUTFITIN ID. Dengan mengakses situs web ini dan melakukan pembelian, Anda dianggap telah membaca, memahami, dan menyetujui untuk terikat oleh Syarat & Ketentuan ini serta hukum yang berlaku di Indonesia.</p>
+          <div class="info-box">
+            <i class="bi bi-info-circle"></i>
+            <p>Ketentuan ini berlaku bagi semua pengunjung, pengguna, dan pihak lain yang mengakses layanan kami.</p>
+          </div>
+        </div>
+
+        <div id="products" class="content-section">
+          <h3>2. Produk dan Pemesanan</h3>
+          <p>Kami berupaya menampilkan warna dan detail produk seakurat mungkin. Namun, perbedaan tampilan layar mungkin menyebabkan sedikit perbedaan warna dengan produk asli.</p>
+          <ul class="list-items">
+            <li>Stok produk dapat berubah sewaktu-waktu tanpa pemberitahuan.</li>
+            <li>Pesanan dianggap sah setelah Anda melakukan konfirmasi pembayaran.</li>
+            <li>Kami berhak membatalkan pesanan jika produk habis atau terdapat kesalahan harga.</li>
+            <li>Harga dapat berubah sewaktu-waktu sesuai kebijakan promo OUTFITIN ID.</li>
+          </ul>
+        </div>
+
+        <div id="user-accounts" class="content-section">
+          <h3>3. Akun Pengguna</h3>
+          <p>Saat mendaftar akun di OUTFITIN ID, Anda wajib memberikan informasi yang akurat, lengkap, dan terkini. Kegagalan dalam melakukan hal ini merupakan pelanggaran terhadap Syarat & Ketentuan.</p>
+          <div class="alert-box">
+            <i class="bi bi-exclamation-triangle"></i>
+            <div class="alert-content">
+              <h5>Penting</h5>
+              <p>Anda bertanggung jawab penuh menjaga kerahasiaan kata sandi (password) dan segala aktivitas yang terjadi di bawah akun Anda.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="intellectual-property" class="content-section">
+          <h3>4. Hak Kekayaan Intelektual</h3>
+          <p>Layanan ini beserta konten aslinya (termasuk namun tidak terbatas pada logo OUTFITIN ID, desain web, foto produk, dan teks) adalah milik eksklusif OUTFITIN ID dan dilindungi oleh undang-undang hak cipta.</p>
+          <ul class="list-items">
+            <li>Dilarang menggunakan foto produk kami untuk tujuan komersial tanpa izin.</li>
+            <li>Dilarang mengubah atau memodifikasi konten digital dari situs ini.</li>
+          </ul>
+        </div>
+
+        <div id="prohibited" class="content-section">
+          <h3>5. Larangan Penggunaan</h3>
+          <p>Anda dilarang menggunakan layanan kami untuk tujuan yang melanggar hukum atau dilarang oleh ketentuan ini.</p>
+          <div class="prohibited-list">
+            <div class="prohibited-item">
+              <i class="bi bi-x-circle"></i>
+              <span>Melakukan penipuan pembayaran</span>
+            </div>
+            <div class="prohibited-item">
+              <i class="bi bi-x-circle"></i>
+              <span>Memberikan alamat palsu/fiktif</span>
+            </div>
+            <div class="prohibited-item">
+              <i class="bi bi-x-circle"></i>
+              <span>Mencoba merusak sistem keamanan web</span>
+            </div>
+            <div class="prohibited-item">
+              <i class="bi bi-x-circle"></i>
+              <span>Melakukan spamming pada fitur ulasan</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="returns" class="content-section">
+          <h3>6. Kebijakan Pengembalian (Retur)</h3>
+          <p>Kami menerima penukaran barang jika terdapat cacat produksi atau kesalahan pengiriman ukuran/model dari pihak kami.</p>
+          <div class="disclaimer-box">
+            <p>Syarat klaim retur:</p>
+            <ul>
+              <li>Wajib menyertakan <strong>Video Unboxing</strong> tanpa terputus.</li>
+              <li>Produk belum dipakai, dicuci, dan label masih terpasang.</li>
+              <li>Klaim maksimal 2x24 jam setelah barang diterima.</li>
+              <li>Biaya ongkir retur ditanggung pembeli (kecuali kesalahan dari kami).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="limitation" class="content-section">
+          <h3>7. Batasan Tanggung Jawab</h3>
+          <p>OUTFITIN ID tidak bertanggung jawab atas keterlambatan pengiriman yang disebabkan oleh pihak ekspedisi/kurir, atau kerusakan paket yang terjadi selama proses pengiriman oleh pihak ketiga.</p>
+        </div>
+
+        <div id="governing-law" class="content-section">
+          <h3>8. Hukum yang Berlaku</h3>
+          <p>Syarat dan Ketentuan ini diatur dan ditafsirkan sesuai dengan hukum yang berlaku di Republik Indonesia. Segala sengketa akan diselesaikan melalui musyawarah untuk mufakat.</p>
+        </div>
+
+        <div id="changes" class="content-section">
+          <h3>9. Perubahan Ketentuan</h3>
+          <p>Kami berhak untuk memodifikasi atau mengganti Syarat & Ketentuan ini kapan saja. Perubahan akan diinformasikan melalui halaman ini.</p>
+          <div class="notice-box">
+            <i class="bi bi-bell"></i>
+            <p>Dengan terus mengakses atau menggunakan layanan kami setelah revisi tersebut berlaku, Anda setuju untuk terikat oleh ketentuan yang telah diubah.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tos-contact" data-aos="fade-up" data-aos-delay="300">
+        <div class="contact-box">
+          <div class="contact-icon">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="contact-content">
+            <h4>Punya Pertanyaan Lain?</h4>
+            <p>Jika Anda memiliki pertanyaan mengenai Syarat & Ketentuan ini, silakan hubungi kami.</p>
+            <a href="contact.html" class="contact-link">Hubungi Customer Service</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section></main>
+
+<footer id="footer" class="footer light-background">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget footer-about">
+            <a href="index.html" class="logo">
+              <span class="sitename">OUTFITIN<span>ID</span></span>
+            </a>
+            <p>Fashion terbaru untuk gaya sehari-hari. Temukan outfit favoritmu dengan mudah dan nyaman bersama kami.</p>
+
+            <div class="social-links mt-4">
+              <h5>Ikuti Kami</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Menu Utama</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="category.html">Kategori</a></li>
+              <li><a href="promo.html">Promo</a></li>
+              <li><a href="brands.html">Brand</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Bantuan</h4>
+            <ul class="footer-links">
+              <li><a href="cart.html">Keranjang Belanja</a></li>
+              <li><a href="contact.html">Konfirmasi Pembayaran</a></li>
+              <li><a href="faq.html">FAQ (Tanya Jawab)</a></li>
+              <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h4>Hubungi Kami</h4>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Jakarta, Indonesia</span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <span>
+                  <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                    +62 895-6390-68080
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <span><a href="mailto:support@outfitin.id">support@outfitin.id</a></span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <span>Senin - Jumat: 09.00 - 18.00<br>Sabtu: 10.00 - 16.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            <p>© <span>Copyright</span> <strong class="sitename">OUTFITIN ID</strong>. All Rights Reserved.</p>
+          </div>
+          <div class="credits mt-1">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+
+            <div class="legal-links">
+              <a href="tos.html">Syarat & Ketentuan</a>
+              <a href="privacy.html">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

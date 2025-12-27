@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OUTFITIN ID</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/logo.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+
+  <div class="top-bar py-2 d-none d-lg-block">
+    <div class="container-fluid container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center">
+            <div class="top-bar-item me-4">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Layanan Pelanggan: </span>
+              <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                +62 895-6390-68080
+              </a>
+            </div>
+            <div class="top-bar-item">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:support@outfitin.id">support@outfitin.id</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container-fluid container-xl">
+      <div class="d-flex py-3 align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">OUTFITIN<span>ID</span></h1>
+        </a>
+
+        <form action="category.html" method="GET" class="search-form desktop-search-form d-none d-xl-block">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Cari outfit favoritmu...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="d-flex align-items-center">
+          
+          <button class="header-action-btn mobile-search-toggle d-xl-none me-3 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+            <i class="bi bi-search fs-4 text-dark"></i>
+          </button>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list fs-2 cursor-pointer text-dark"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container-fluid container-xl position-relative">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="category.html">Kategori</a></li>
+          <li><a href="cart.html">Keranjang</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="brands.html">Brand</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="announcement-bar py-2">
+    <div class="container-fluid container-xl">
+      <div class="announcement-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": 1, "effect": "slide", "direction": "vertical" }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">🚚 Gratis ongkir seluruh Indonesia</div>
+          <div class="swiper-slide">💰 Garansi uang kembali 30 hari</div>
+          <div class="swiper-slide">⚡ Flash Sale Setiap Hari!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="collapse" id="mobileSearch">
+    <div class="container py-2">
+      <form action="category.html" method="GET" class="search-form">
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="Cari produk...">
+          <button class="btn search-btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">About</li>
+          </ol>
+        </nav>
+        <h1>About</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- About 2 Section -->
+<section id="about-2" class="about-2 section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row mb-lg-5">
+      <span class="text-uppercase small-title mb-2">Tentang Outfitin ID</span>
+      <div class="col-lg-6">
+        <h2 class="about-title">
+          Outfitin ID hadir sebagai solusi gaya berpakaian modern yang simpel, trendi, dan relevan.
+        </h2>
+      </div>
+      <div class="col-lg-6 description-wrapper">
+        <p class="about-description">
+          Kami memahami bahwa outfit bukan sekadar pakaian, tetapi bagian dari identitas. Outfitin ID
+          mengkurasi produk fashion yang mengikuti perkembangan tren era modern tanpa mengorbankan
+          kenyamanan dan kualitas.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+    <div class="content-card">
+      <div class="card-image">
+        <img src="assets/img/about/proses-pembuatan-baju.jpg" alt="Membuat Baju" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+      </div>
+    </div>
+  </div><div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+    <div class="content-card">
+      <div class="card-image">
+        <img src="assets/img/about/Fungsi-Proses-Picking.webp" alt="Analisis Fashion" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+      </div>
+    </div>
+  </div><div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+    <div class="content-card">
+      <div class="card-image">
+        <img src="assets/img/about/membuat-celana.webp" alt="Membuat Celana" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
+      </div>
+    </div>
+  </div></div>
+
+  </div>
+
+</section><!-- /About 2 Section -->
+
+
+    <!-- Stats Section -->
+<section id="stats" class="stats section light-background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-emoji-smile"></i>
+          <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Pelanggan Puas</strong> <span>telah mempercayai Outfitin ID</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-journal-richtext"></i>
+          <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Produk Outfit</strong> <span>dikurasi mengikuti tren modern</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-headset"></i>
+          <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Jam Layanan</strong> <span>dukungan pelanggan responsif</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-people"></i>
+          <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Tim Profesional</strong> <span>berpengalaman di dunia fashion</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Stats Section -->
+
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="testimonials-slider swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "slidesPerView": 1,
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "navigation": {
+            "nextEl": ".swiper-button-next",
+            "prevEl": ".swiper-button-prev"
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <h2>Outfit Simple tapi Tetap Keren</h2>
+                <p>
+                  Saya suka belanja di Outfitin ID karena modelnya simpel tapi tetap kelihatan modern.
+                  Cocok dipakai harian, nongkrong, sampai acara santai. Bahannya juga nyaman.
+                </p>
+                <p>
+                  Pengirimannya cepat dan produk yang datang sesuai foto. Dari packing sampai kualitas,
+                  semuanya rapi dan profesional.
+                </p>
+                <div class="profile d-flex align-items-center">
+                  <img src="assets/img/person/testimoni-tyas.webp" class="profile-img" alt="">
+                  <div class="profile-info">
+                    <h3>Tyas Andini</h3>
+                    <span>Pelanggan</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="featured-img-wrapper">
+                  <img src="assets/img/person/testimoni-tyas.webp" class="featured-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <h2>Tren Kekinian & Mudah Dipadukan</h2>
+                <p>
+                  Koleksi Outfitin ID selalu up to date dengan tren fashion sekarang.
+                  Modelnya mudah dipadukan dengan outfit lain, jadi nggak ribet saat styling.
+                </p>
+                <p>
+                  Cocok banget buat yang suka tampilan clean dan modern tanpa terlihat berlebihan.
+                  Pasti bakal repeat order.
+                </p>
+                <div class="profile d-flex align-items-center">
+                  <img src="assets/img/person/testimoni-bima.webp" class="profile-img" alt="">
+                  <div class="profile-info">
+                    <h3>Bima Saputra</h3>
+                    <span>Content Creator</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="featured-img-wrapper">
+                  <img src="assets/img/person/testimoni-bima.webp" class="featured-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <h2>Nyaman Dipakai Seharian</h2>
+                <p>
+                  Yang paling saya rasakan dari produk Outfitin ID adalah kenyamanannya.
+                  Dipakai seharian tetap enak dan tidak gerah.
+                </p>
+                <p>
+                  Cocok buat kerja, jalan, atau aktivitas santai. Kualitasnya terasa
+                  lebih dari harganya.
+                </p>
+                <div class="profile d-flex align-items-center">
+                  <img src="assets/img/person/testimoni-zahra.webp" class="profile-img" alt="">
+                  <div class="profile-info">
+                    <h3>Zahra Aviva</h3>
+                    <span>Pekerja Freelance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="featured-img-wrapper">
+                  <img src="assets/img/person/testimoni-zahra.webp" class="featured-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Item -->
+
+      </div>
+
+      <div class="swiper-navigation w-100 d-flex align-items-center justify-content-center">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget footer-about">
+            <a href="index.html" class="logo">
+              <span class="sitename">OUTFITIN<span>ID</span></span>
+            </a>
+            <p>Fashion terbaru untuk gaya sehari-hari. Temukan outfit favoritmu dengan mudah dan nyaman bersama kami.</p>
+
+            <div class="social-links mt-4">
+              <h5>Ikuti Kami</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Menu Utama</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="category.html">Kategori</a></li>
+              <li><a href="promo.html">Promo</a></li>
+              <li><a href="brands.html">Brand</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Bantuan</h4>
+            <ul class="footer-links">
+              <li><a href="cart.html">Keranjang Belanja</a></li>
+              <li><a href="contact.html">Konfirmasi Pembayaran</a></li>
+              <li><a href="faq.html">FAQ (Tanya Jawab)</a></li>
+              <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h4>Hubungi Kami</h4>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Jakarta, Indonesia</span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <span>
+                  <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                    +62 895-6390-68080
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <span><a href="mailto:support@outfitin.id">support@outfitin.id</a></span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <span>Senin - Jumat: 09.00 - 18.00<br>Sabtu: 10.00 - 16.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            <p>© <span>Copyright</span> <strong class="sitename">OUTFITIN ID</strong>. All Rights Reserved.</p>
+          </div>
+          <div class="credits mt-1">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+
+            <div class="legal-links">
+              <a href="tos.html">Syarat & Ketentuan</a>
+              <a href="privacy.html">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

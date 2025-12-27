@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OUTFITIN ID</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/logo.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+
+  <div class="top-bar py-2 d-none d-lg-block">
+    <div class="container-fluid container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center">
+            <div class="top-bar-item me-4">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Layanan Pelanggan: </span>
+              <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                +62 895-6390-68080
+              </a>
+            </div>
+            <div class="top-bar-item">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:support@outfitin.id">support@outfitin.id</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container-fluid container-xl">
+      <div class="d-flex py-3 align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">OUTFITIN<span>ID</span></h1>
+        </a>
+
+        <form action="category.html" method="GET" class="search-form desktop-search-form d-none d-xl-block">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Cari outfit favoritmu...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="d-flex align-items-center">
+          
+          <button class="header-action-btn mobile-search-toggle d-xl-none me-3 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+            <i class="bi bi-search fs-4 text-dark"></i>
+          </button>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list fs-2 cursor-pointer text-dark"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container-fluid container-xl position-relative">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="category.html">Kategori</a></li>
+          <li><a href="cart.html">Keranjang</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="brands.html">Brand</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="announcement-bar py-2">
+    <div class="container-fluid container-xl">
+      <div class="announcement-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": 1, "effect": "slide", "direction": "vertical" }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">🚚 Gratis ongkir seluruh Indonesia</div>
+          <div class="swiper-slide">💰 Garansi uang kembali 30 hari</div>
+          <div class="swiper-slide">⚡ Flash Sale Setiap Hari!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="collapse" id="mobileSearch">
+    <div class="container py-2">
+      <form action="category.html" method="GET" class="search-form">
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="Cari produk...">
+          <button class="btn search-btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+
+  <main class="main">
+
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Promo</li>
+          </ol>
+        </nav>
+        <h1>Promo Spesial</h1>
+      </div>
+    </div><section id="promo-section" class="promo-section section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Penawaran Terbatas</h2>
+        <p>Jangan lewatkan kesempatan emas! Klaim kode promo eksklusif Anda di bawah ini.</p>
+      </div><div class="container" data-aos="fade-up">
+        
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="promo-card">
+              <div class="promo-img">
+                <img src="assets/img/promo/promo-outfit-modern.webp" alt="Promo Outfit" class="img-fluid">
+                <span class="badge-promo">Trending</span>
+              </div>
+              <div class="promo-body">
+                <h3>Klaim Promo Outfit Modern</h3>
+                <p>Upgrade penampilanmu dengan koleksi modern terbaru.</p>
+                <button class="btn-claim" onclick="showPromoPopup('MODERNSTYLE')">Klaim Promo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="promo-card">
+              <div class="promo-img">
+                <img src="assets/img/promo/diskon-spesial-hari-ini.webp" alt="Promo Diskon" class="img-fluid">
+                <span class="badge-promo">Flash Sale</span>
+              </div>
+              <div class="promo-body">
+                <h3>Ambil Diskon Spesial Hari Ini</h3>
+                <p>Khusus hari ini, dapatkan potongan harga ekstra.</p>
+                <button class="btn-claim" onclick="showPromoPopup('SPECIALTODAY')">Klaim Promo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="promo-card">
+              <div class="promo-img">
+                <img src="assets/img/promo/promo-gaya-harian.webp" alt="Promo Santai" class="img-fluid">
+                <span class="badge-promo">Daily</span>
+              </div>
+              <div class="promo-body">
+                <h3>Promo Santai Buat Gaya Harian</h3>
+                <p>Outfit nyaman untuk aktivitas santai sehari-hari.</p>
+                <button class="btn-claim" onclick="showPromoPopup('SANTAIDAY')">Klaim Promo</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="promo-card">
+              <div class="promo-img">
+                <img src="assets/img/promo/diskon-bebas-pilih.webp" alt="Promo Favorit" class="img-fluid">
+                <span class="badge-promo">Pilihanmu</span>
+              </div>
+              <div class="promo-body">
+                <h3>Diskon Bebas Pilih Favoritmu</h3>
+                <p>Pilih item kesukaanmu dan gunakan kodenya.</p>
+                <button class="btn-claim" onclick="showPromoPopup('MYFAVORITE')">Klaim Promo</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+    </section><div id="promoModal" class="promo-modal-overlay">
+      <div class="promo-modal-content">
+        <span class="close-modal" onclick="closePromoPopup()">&times;</span>
+        <div class="modal-icon">
+          <i class="bi bi-gift-fill"></i>
+        </div>
+        <h3>Selamat!</h3>
+        <p>Ini kode promonya:</p>
+        <div class="coupon-box">
+          <span id="couponCode">CODE123</span>
+          <button class="btn-copy" onclick="copyCode()">Salin</button>
+        </div>
+        <p class="small-text">*Tunjukkan atau masukkan kode ini saat checkout.</p>
+      </div>
+    </div>
+
+    <style>
+      /* Card Styles */
+      .promo-card {
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        height: 100%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      }
+      .promo-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      }
+      .promo-img {
+        position: relative;
+        height: 200px;
+        overflow: hidden;
+        background: #f0f0f0; /* Fallback color */
+      }
+      .promo-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .badge-promo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #e63946;
+        color: white;
+        padding: 4px 12px;
+        font-size: 12px;
+        border-radius: 20px;
+        font-weight: 600;
+      }
+      .promo-body {
+        padding: 20px;
+        text-align: center;
+      }
+      .promo-body h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        color: #333;
+      }
+      .promo-body p {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 15px;
+      }
+      .btn-claim {
+        background: var(--accent-color, #0d6efd); /* Mengikuti warna tema utama */
+        color: #fff;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        width: 100%;
+        font-weight: 500;
+      }
+      .btn-claim:hover {
+        opacity: 0.9;
+      }
+
+      /* Modal Popup Styles */
+      .promo-modal-overlay {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        align-items: center;
+        justify-content: center;
+      }
+      .promo-modal-overlay.active {
+        display: flex;
+        animation: fadeIn 0.3s;
+      }
+      .promo-modal-content {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        position: relative;
+        animation: slideUp 0.3s;
+      }
+      .close-modal {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #aaa;
+      }
+      .close-modal:hover { color: #333; }
+      .modal-icon {
+        font-size: 40px;
+        color: var(--accent-color, #0d6efd);
+        margin-bottom: 10px;
+      }
+      .coupon-box {
+        background: #f8f9fa;
+        border: 2px dashed #ccc;
+        padding: 10px 15px;
+        margin: 15px 0;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #couponCode {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+      .btn-copy {
+        background: #333;
+        color: #fff;
+        border: none;
+        padding: 5px 12px;
+        border-radius: 4px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .small-text { font-size: 12px; color: #888; margin-top: 10px; }
+
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes slideUp { from { transform: translateY(20px); } to { transform: translateY(0); } }
+    </style>
+
+    <script>
+      // 1. Fungsi Menampilkan Popup
+      function showPromoPopup(code) {
+        if(code) {
+          document.getElementById('couponCode').innerText = code;
+          document.getElementById('promoModal').classList.add('active');
+        }
+      }
+
+      // 2. Fungsi Menutup Popup
+      function closePromoPopup() {
+        document.getElementById('promoModal').classList.remove('active');
+        // Bersihkan URL agar kalau di-refresh tidak muncul lagi (Opsional)
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+
+      // 3. Fungsi Copy Code
+      function copyCode() {
+        var codeText = document.getElementById("couponCode").innerText;
+        navigator.clipboard.writeText(codeText);
+        var btn = document.querySelector('.btn-copy');
+        btn.innerText = "Disalin!";
+        setTimeout(function(){ btn.innerText = "Salin"; }, 1500);
+      }
+
+      // 4. Tutup jika klik di luar
+      window.onclick = function(event) {
+        var modal = document.getElementById('promoModal');
+        if (event.target == modal) {
+          modal.classList.remove('active');
+        }
+      }
+
+      // --- BAGIAN BARU: AUTO POPUP DARI NAVBAR ---
+      // Dijalankan saat halaman selesai dimuat
+      window.addEventListener('DOMContentLoaded', (event) => {
+        // Ambil parameter '?code=...' dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const codeFromUrl = urlParams.get('code');
+
+        // Jika ada kode di URL, langsung buka popup
+        if (codeFromUrl) {
+          showPromoPopup(codeFromUrl);
+        }
+      });
+    </script>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget footer-about">
+            <a href="index.html" class="logo">
+              <span class="sitename">OUTFITIN<span>ID</span></span>
+            </a>
+            <p>Fashion terbaru untuk gaya sehari-hari. Temukan outfit favoritmu dengan mudah dan nyaman bersama kami.</p>
+
+            <div class="social-links mt-4">
+              <h5>Ikuti Kami</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Menu Utama</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="category.html">Kategori</a></li>
+              <li><a href="promo.html">Promo</a></li>
+              <li><a href="brands.html">Brand</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Bantuan</h4>
+            <ul class="footer-links">
+              <li><a href="cart.html">Keranjang Belanja</a></li>
+              <li><a href="contact.html">Konfirmasi Pembayaran</a></li>
+              <li><a href="faq.html">FAQ (Tanya Jawab)</a></li>
+              <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h4>Hubungi Kami</h4>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Jakarta, Indonesia</span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <span>
+                  <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                    +62 895-6390-68080
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <span><a href="mailto:support@outfitin.id">support@outfitin.id</a></span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <span>Senin - Jumat: 09.00 - 18.00<br>Sabtu: 10.00 - 16.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            <p>© <span>Copyright</span> <strong class="sitename">OUTFITIN ID</strong>. All Rights Reserved.</p>
+          </div>
+          <div class="credits mt-1">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+
+            <div class="legal-links">
+              <a href="tos.html">Syarat & Ketentuan</a>
+              <a href="privacy.html">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

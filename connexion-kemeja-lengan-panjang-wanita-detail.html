@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>OUTFITIN ID</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/logo.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+
+  <div class="top-bar py-2 d-none d-lg-block">
+    <div class="container-fluid container-xl">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="d-flex align-items-center">
+            <div class="top-bar-item me-4">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Layanan Pelanggan: </span>
+              <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                +62 895-6390-68080
+              </a>
+            </div>
+            <div class="top-bar-item">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <a href="mailto:support@outfitin.id">support@outfitin.id</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="container-fluid container-xl">
+      <div class="d-flex py-3 align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">OUTFITIN<span>ID</span></h1>
+        </a>
+
+        <form action="category.html" method="GET" class="search-form desktop-search-form d-none d-xl-block">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="Cari outfit favoritmu...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+
+        <div class="d-flex align-items-center">
+          
+          <button class="header-action-btn mobile-search-toggle d-xl-none me-3 border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+            <i class="bi bi-search fs-4 text-dark"></i>
+          </button>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list fs-2 cursor-pointer text-dark"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container-fluid container-xl position-relative">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li><a href="category.html">Kategori</a></li>
+          <li><a href="cart.html">Keranjang</a></li>
+          <li><a href="promo.html">Promo</a></li>
+          <li><a href="brands.html">Brand</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="announcement-bar py-2">
+    <div class="container-fluid container-xl">
+      <div class="announcement-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": 1, "effect": "slide", "direction": "vertical" }
+        </script>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">🚚 Gratis ongkir seluruh Indonesia</div>
+          <div class="swiper-slide">💰 Garansi uang kembali 30 hari</div>
+          <div class="swiper-slide">⚡ Flash Sale Setiap Hari!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="collapse" id="mobileSearch">
+    <div class="container py-2">
+      <form action="category.html" method="GET" class="search-form">
+        <div class="input-group">
+          <input type="text" name="keyword" class="form-control" placeholder="Cari produk...">
+          <button class="btn search-btn btn-primary" type="submit">Cari</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+
+
+<main class="main">
+
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="current">Detail Produk</li>
+          </ol>
+        </nav>
+        <h1>Connexion Kemeja Lengan Panjang Wanita</h1>
+      </div>
+    </div>
+    
+    <section id="product-details" class="product-details section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-5">
+      <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+        <div class="product-gallery">
+          <div class="thumbnails-vertical">
+            <div class="thumbnails-container">
+              <div class="thumbnail-item active" data-image="assets/img/product/kemeja-lengan-panjang-wanita-black.webp">
+                <img src="assets/img/product/kemeja-lengan-panjang-wanita-black.webp" alt="Thumbnail Hitam" class="img-fluid">
+              </div>
+              <div class="thumbnail-item" data-image="assets/img/product/kemeja-lengan-panjang-wanita-dusty-pink.webp">
+                <img src="assets/img/product/kemeja-lengan-panjang-wanita-dusty-pink.webp" alt="Thumbnail Pink" class="img-fluid">
+              </div>
+              <div class="thumbnail-item" data-image="assets/img/product/kemeja-lengan-panjang-wanita-khaki.webp">
+                <img src="assets/img/product/kemeja-lengan-panjang-wanita-khaki.webp" alt="Thumbnail Khaki" class="img-fluid">
+              </div>
+              <div class="thumbnail-item" data-image="assets/img/product/kemeja-lengan-panjang-wanita-navy-blue.webp">
+                <img src="assets/img/product/kemeja-lengan-panjang-wanita-navy-blue.webp" alt="Thumbnail Navy" class="img-fluid">
+              </div>
+              <div class="thumbnail-item" data-image="assets/img/product/kemeja-lengan-panjang-wanita-olive.webp">
+                <img src="assets/img/product/kemeja-lengan-panjang-wanita-olive.webp" alt="Thumbnail Olive" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="main-image-wrapper">
+            <div class="image-zoom-container">
+              <img src="assets/img/product/kemeja-lengan-panjang-wanita-black.webp" alt="Connexion Kemeja Lengan Panjang" class="img-fluid main-image drift-zoom" id="main-product-image" data-zoom="assets/img/product/kemeja-lengan-panjang-wanita-black.webp">
+              <div class="zoom-overlay">
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+            <div class="image-nav">
+              <button class="image-nav-btn prev-image">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+              <button class="image-nav-btn next-image">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <div class="product-info-wrapper" id="product-info-sticky" data-id="CONN-KEMEJA-001" data-stock="85">
+          <div class="product-meta">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="product-category">Wanita</span>
+              <div class="product-share">
+                <button class="share-btn" aria-label="Share product">
+                  <i class="bi bi-share"></i>
+                </button>
+                <div class="share-dropdown">
+                  <a href="#" aria-label="Share on Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" aria-label="Share on Twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" aria-label="Share on Pinterest"><i class="bi bi-pinterest"></i></a>
+                  <a href="#" aria-label="Share via Email"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <h1 class="product-title">Connexion Kemeja Lengan Panjang Wanita</h1>
+
+            <div class="product-rating">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span class="rating-value">4.6</span>
+              </div>
+              <a href="#reviews" class="rating-count">24 Ulasan</a>
+            </div>
+          </div>
+
+          <div class="product-price-container">
+            <div class="price-wrapper">
+              <span class="current-price">Rp 259.132</span>
+            </div>
+            <span class="discount-badge" style="background-color: #0d6efd;">Baru</span>
+          </div>
+
+          <div class="product-short-description">
+            <p>Kemeja lengan panjang wanita dari Connexion dengan desain minimalis dan elegan. Dibuat dari bahan berkualitas yang lembut di kulit, memberikan kenyamanan maksimal untuk tampilan formal maupun semi-formal Anda.</p>
+          </div>
+
+          <div class="product-options">
+            <div class="option-group">
+              <div class="option-header">
+                <h6 class="option-title">Warna</h6>
+                <span class="selected-option">Hitam</span>
+              </div>
+              <div class="color-options">
+                <div class="color-option active" data-color="Hitam" style="background-color: #000000;">
+                  <i class="bi bi-check"></i>
+                </div>
+                <div class="color-option" data-color="Pink" style="background-color: #be4c9c;">
+                  <i class="bi bi-check"></i>
+                </div>
+                <div class="color-option" data-color="Khaki" style="background-color: #dcd299;">
+                  <i class="bi bi-check"></i>
+                </div>
+                <div class="color-option" data-color="Navy" style="background-color: #2725a2;">
+                  <i class="bi bi-check"></i>
+                </div>
+                <div class="color-option" data-color="Olive" style="background-color: #75b817;">
+                  <i class="bi bi-check"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="option-group">
+              <div class="option-header">
+                <h6 class="option-title">Ukuran</h6>
+                <span class="selected-option">M</span>
+              </div>
+              <div class="size-options">
+                <div class="size-option" data-size="S">S</div>
+                <div class="size-option active" data-size="M">M</div>
+                <div class="size-option" data-size="L">L</div>
+                <div class="size-option" data-size="XL">XL</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-actions">
+            <button class="btn btn-primary add-to-cart-btn">
+              <i class="bi bi-cart-plus"></i> Pesan Sekarang
+            </button>
+
+            <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID%20%F0%9F%91%8B%0ABisakah%20saya%20bertanya%20informasi%20tentang%20Connexion%20Kemeja%20Lengan%20Panjang%20Wanita%3F%0ATerima%20kasih%20%F0%9F%99%8F" target="_blank" class="btn btn-outline-primary buy-now-btn">
+              <i class="bi bi-lightning-fill"></i> Chat Admin
+            </a>
+
+            <button class="btn btn-outline-secondary wishlist-btn" aria-label="Add to wishlist">
+              <i class="bi bi-heart"></i>
+            </button>
+          </div>
+
+          <div class="delivery-options">
+            <div class="delivery-option">
+              <i class="bi bi-truck"></i>
+              <div>
+                <h6>Pengiriman Cepat</h6>
+                <p>Tersedia layanan Next Day</p>
+              </div>
+            </div>
+            <div class="delivery-option">
+              <i class="bi bi-arrow-repeat"></i>
+              <div>
+                <h6>Tukar Ukuran</h6>
+                <p>Jika ukuran tidak pas</p>
+              </div>
+            </div>
+            <div class="delivery-option">
+              <i class="bi bi-shield-check"></i>
+              <div>
+                <h6>Jaminan Original</h6>
+                <p>Produk Connexion Asli</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5" data-aos="fade-up">
+      <div class="col-12">
+        <div class="product-details-accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#description" aria-expanded="true" aria-controls="description">
+                Deskripsi Produk
+              </button>
+            </h2>
+            <div id="description" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <div class="product-description">
+                  <h4>Ringkasan Produk</h4>
+                  <p>Connexion Kemeja Lengan Panjang Wanita menghadirkan kombinasi sempurna antara gaya profesional dan kenyamanan kasual. Cocok digunakan untuk bekerja di kantor maupun acara santai di akhir pekan. Potongannya yang pas memberikan siluet yang rapi dan menarik.</p>
+
+                  <div class="row mt-4">
+                    <div class="col-md-6">
+                      <h4>Fitur Utama</h4>
+                      <ul class="feature-list">
+                        <li><i class="bi bi-check-circle"></i> Bahan Premium (Lembut & Nyaman)</li>
+                        <li><i class="bi bi-check-circle"></i> Cutting Regular Fit yang proporsional</li>
+                        <li><i class="bi bi-check-circle"></i> Manset kancing di pergelangan tangan</li>
+                        <li><i class="bi bi-check-circle"></i> Pilihan warna yang stylish dan modern</li>
+                        <li><i class="bi bi-check-circle"></i> Mudah disetrika dan tidak mudah kusut</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Isi Dalam Paket</h4>
+                      <ul class="feature-list">
+                        <li><i class="bi bi-box"></i> 1x Connexion Kemeja Lengan Panjang Wanita</li>
+                        <li><i class="bi bi-box"></i> Premium Packaging</li>
+                        <li><i class="bi bi-box"></i> Hangtag Brand Original</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#specifications" aria-expanded="false" aria-controls="specifications">
+                Spesifikasi Teknis
+              </button>
+            </h2>
+            <div id="specifications" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <div class="product-specifications">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="specs-group">
+                        <h4>Detail Material</h4>
+                        <div class="specs-table">
+                          <div class="specs-row">
+                            <div class="specs-label">Bahan Utama</div>
+                            <div class="specs-value">Katun Mix Premium</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Jenis Kerah</div>
+                            <div class="specs-value">Kerah Kemeja (Spread Collar)</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Tipe Lengan</div>
+                            <div class="specs-value">Lengan Panjang</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Motif</div>
+                            <div class="specs-value">Polos (Solid)</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="specs-group">
+                        <h4>Perawatan</h4>
+                        <div class="specs-table">
+                          <div class="specs-row">
+                            <div class="specs-label">Pencucian</div>
+                            <div class="specs-value">Cuci dengan warna serupa</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Pemutih</div>
+                            <div class="specs-value">Jangan gunakan pemutih</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Setrika</div>
+                            <div class="specs-value">Suhu sedang (Medium Heat)</div>
+                          </div>
+                          <div class="specs-row">
+                            <div class="specs-label">Pengeringan</div>
+                            <div class="specs-value">Gantung hingga kering</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" id="reviews">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewsContent" aria-expanded="false" aria-controls="reviewsContent">
+                Ulasan Pelanggan (24)
+              </button>
+            </h2>
+            <div id="reviewsContent" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <div class="product-reviews">
+                  <div class="reviews-summary">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="overall-rating">
+                          <div class="rating-number">4.6</div>
+                          <div class="rating-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                          </div>
+                          <div class="rating-count">Dari 24 ulasan</div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-8">
+                        <div class="rating-breakdown">
+                          <div class="rating-bar">
+                            <div class="rating-label">5 bintang</div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="rating-count">18</div>
+                          </div>
+                          <div class="rating-bar">
+                            <div class="rating-label">4 bintang</div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="rating-count">6</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="reviews-list">
+
+                    <div class="review-item">
+                      <div class="review-header">
+                        <div class="reviewer-info">
+                          <div class="reviewer-avatar" style="width: 50px; height: 50px; border-radius: 50%; background-color: #be4c9c; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px; margin-right: 15px; flex-shrink: 0;">
+                            S
+                          </div>
+                          <div>
+                            <h5 class="reviewer-name">Siti Aminah</h5>
+                            <div class="review-date">12/11/2025</div>
+                          </div>
+                        </div>
+                        <div class="review-rating">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <h5 class="review-title">Warna Pinknya Cantik!</h5>
+                      <div class="review-content">
+                        <p>Kemejanya bagus sekali, warna dusty pinknya sesuai foto. Bahannya jatuh dan tidak panas. Sangat cocok buat kerja.</p>
+                      </div>
+                    </div>
+
+                    <div class="review-item">
+                      <div class="review-header">
+                        <div class="reviewer-info">
+                          <div class="reviewer-avatar" style="width: 50px; height: 50px; border-radius: 50%; background-color: #2725a2; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px; margin-right: 15px; flex-shrink: 0;">
+                            M
+                          </div>
+                          <div>
+                            <h5 class="reviewer-name">Maya Sari</h5>
+                            <div class="review-date">05/11/2025</div>
+                          </div>
+                        </div>
+                        <div class="review-rating">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                      <h5 class="review-title">Kualitas Jahitan Rapi</h5>
+                      <div class="review-content">
+                        <p>Beli warna Navy, jahitannya sangat rapi khas Connexion. Ukuran L pas banget di saya yang BB 60kg. Pengemasan aman.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  </main>
+
+<footer id="footer" class="footer light-background">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget footer-about">
+            <a href="index.html" class="logo">
+              <span class="sitename">OUTFITIN<span>ID</span></span>
+            </a>
+            <p>Fashion terbaru untuk gaya sehari-hari. Temukan outfit favoritmu dengan mudah dan nyaman bersama kami.</p>
+
+            <div class="social-links mt-4">
+              <h5>Ikuti Kami</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Menu Utama</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="category.html">Kategori</a></li>
+              <li><a href="promo.html">Promo</a></li>
+              <li><a href="brands.html">Brand</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h4>Bantuan</h4>
+            <ul class="footer-links">
+              <li><a href="cart.html">Keranjang Belanja</a></li>
+              <li><a href="contact.html">Konfirmasi Pembayaran</a></li>
+              <li><a href="faq.html">FAQ (Tanya Jawab)</a></li>
+              <li><a href="about.html">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h4>Hubungi Kami</h4>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Jakarta, Indonesia</span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <span>
+                  <a href="https://wa.me/62895639068080?text=Halo%20Admin%20OUTFITIN%20ID..." target="_blank">
+                    +62 895-6390-68080
+                  </a>
+                </span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <span><a href="mailto:support@outfitin.id">support@outfitin.id</a></span>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-clock"></i>
+                <span>Senin - Jumat: 09.00 - 18.00<br>Sabtu: 10.00 - 16.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="copyright">
+            <p>© <span>Copyright</span> <strong class="sitename">OUTFITIN ID</strong>. All Rights Reserved.</p>
+          </div>
+          <div class="credits mt-1">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+
+            <div class="legal-links">
+              <a href="tos.html">Syarat & Ketentuan</a>
+              <a href="privacy.html">Kebijakan Privasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    // --- 1. DATA PRODUK (OTOMATIS DARI HTML + LOCALSTORAGE) ---
+    function getProductData() {
+        const wrapper = document.querySelector('.product-info-wrapper');
+        const titleEl = document.querySelector('.product-title');
+        const priceEl = document.querySelector('.current-price');
+        const imgEl = document.querySelector('#main-product-image');
+
+        if (!wrapper || !titleEl || !priceEl) {
+            console.error("Elemen produk tidak lengkap di HTML!");
+            return null;
+        }
+
+        const rawPrice = priceEl.innerText; 
+        const cleanPrice = parseInt(rawPrice.replace(/[^0-9]/g, '')) || 0;
+        
+        const productId = wrapper.getAttribute('data-id') || 'CONN-KEMEJA-001';
+        const htmlStock = parseInt(wrapper.getAttribute('data-stock')) || 0;
+
+        // 🔥 TAMBAHAN: CEK DATABASE STOK DI LOCALSTORAGE
+        let productStockDB = JSON.parse(localStorage.getItem('productStock')) || {};
+        
+        // Jika belum ada di database, simpan stok bawaan HTML
+        if (productStockDB[productId] === undefined) {
+            productStockDB[productId] = htmlStock;
+            localStorage.setItem('productStock', JSON.stringify(productStockDB));
+        }
+
+        // Gunakan stok dari database (yang sudah berkurang) bukan dari HTML
+        const realTimeStock = productStockDB[productId];
+
+        return {
+            id: productId, 
+            stock: realTimeStock, // Menggunakan stok real-time
+            name: titleEl.innerText.trim(),
+            basePrice: cleanPrice,
+            image: imgEl.getAttribute('src'),
+            weight: 300
+        };
+    }
+
+    // Inisialisasi Data
+    const productData = getProductData();
+    console.log("Data Produk Terdeteksi:", productData); 
+
+    // --- 2. STATE (Pilihan User) ---
+   let currentSelection = {
+    qty: 1,
+    color: 'Hitam', // Ubah dari 'Biru' ke 'Hitam'
+    size: 'M'      
+};
+
+    // --- PENTING: MAPPING GAMBAR SESUAI WARNA T-ZONE ---
+    const colorImageMap = {
+    'Hitam': 'assets/img/product/kemeja-lengan-panjang-wanita-black.webp',
+    'Pink':  'assets/img/product/kemeja-lengan-panjang-wanita-dusty-pink.webp',
+    'Khaki': 'assets/img/product/kemeja-lengan-panjang-wanita-khaki.webp',
+    'Navy':  'assets/img/product/kemeja-lengan-panjang-wanita-navy-blue.webp',
+    'Olive': 'assets/img/product/kemeja-lengan-panjang-wanita-olive.webp'
+};
+
+    // --- 3. DOM ELEMENTS ---
+    const els = {
+        mainImage: document.querySelector('#main-product-image'),
+        thumbnails: document.querySelectorAll('.thumbnail-item'),
+        colorOpts: document.querySelectorAll('.color-option'),
+        sizeOpts: document.querySelectorAll('.size-option'),
+        qtyInputs: document.querySelectorAll('.quantity-input'), 
+        priceDisplays: document.querySelectorAll('.current-price'), 
+        addToCartBtns: document.querySelectorAll('.add-to-cart-btn'),
+        shareBtn: document.querySelector('.share-btn'),
+        wishlistBtn: document.querySelector('.wishlist-btn'),
+        reviewForm: document.querySelector('.review-form'),
+        reviewsList: document.querySelector('.reviews-list'),
+        // 🔥 TAMBAHAN: Elemen Stok (Opsional, jika ada di HTML)
+        stockDisplay: document.getElementById('stock-display') 
+    };
+
+    // --- 4. UPDATE TAMPILAN (Harga & Stok) ---
+    function updateView() {
+        if(els.qtyInputs.length > 0) {
+            els.qtyInputs.forEach(input => input.value = currentSelection.qty);
+        }
+
+        let finalPrice = productData.basePrice;
+        if (currentSelection.qty >= 3) {
+            finalPrice = productData.basePrice * 0.95;
+        }
+
+        els.priceDisplays.forEach(el => {
+            let priceFormatted = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(finalPrice);
+            el.innerHTML = `${priceFormatted}`;
+        });
+
+        // 🔥 TAMBAHAN: UPDATE UI STOK & TOMBOL BELI
+        // Update teks stok jika elemen ada
+        if (els.stockDisplay) {
+            els.stockDisplay.innerText = productData.stock;
+        }
+
+        // Matikan tombol jika stok 0
+        els.addToCartBtns.forEach(btn => {
+            if (productData.stock <= 0) {
+                btn.disabled = true;
+                btn.innerHTML = "STOK HABIS";
+                btn.classList.add('btn-disabled');
+            } else {
+                btn.disabled = false;
+            }
+        });
+    }
+
+    // --- 5. LOGIKA INTERAKSI ---
+    
+    // Ganti Warna & Gambar
+    els.colorOpts.forEach(opt => {
+        opt.addEventListener('click', function() {
+            els.colorOpts.forEach(o => o.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentSelection.color = this.getAttribute('data-color');
+            const headerText = this.closest('.option-group').querySelector('.selected-option');
+            if(headerText) headerText.textContent = currentSelection.color;
+
+            const targetImage = colorImageMap[currentSelection.color];
+            
+            if (targetImage) {
+                els.mainImage.src = targetImage;
+                els.mainImage.setAttribute('data-zoom', targetImage);
+                productData.image = targetImage; 
+
+                els.thumbnails.forEach(thumb => {
+                    if (thumb.getAttribute('data-image') === targetImage) {
+                        thumb.classList.add('active');
+                    } else {
+                        thumb.classList.remove('active');
+                    }
+                });
+            }
+        });
+    });
+
+    // Ganti Ukuran
+    els.sizeOpts.forEach(opt => {
+        opt.addEventListener('click', function() {
+            els.sizeOpts.forEach(o => o.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentSelection.size = this.getAttribute('data-size');
+            const headerText = this.closest('.option-group').querySelector('.selected-option');
+            if(headerText) headerText.textContent = currentSelection.size;
+        });
+    });
+
+    // Klik Thumbnail
+    els.thumbnails.forEach(thumb => {
+        thumb.addEventListener('click', function() {
+            els.thumbnails.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            
+            const newSrc = this.getAttribute('data-image');
+            els.mainImage.src = newSrc;
+            els.mainImage.setAttribute('data-zoom', newSrc);
+            productData.image = newSrc; 
+        });
+    });
+
+    // --- 6. CART SYSTEM (DENGAN VALIDASI STOK) ---
+    els.addToCartBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            // 🔥 TAMBAHAN: VALIDASI STOK SEBELUM MASUK CART
+            // Cek stok terbaru langsung dari localStorage (biar aman)
+            let currentStockDB = JSON.parse(localStorage.getItem('productStock')) || {};
+            let availableStock = currentStockDB[productData.id];
+
+            // Jika stok tidak ditemukan di DB (kasus aneh), pakai data lokal
+            if(availableStock === undefined) availableStock = productData.stock;
+
+            if (currentSelection.qty > availableStock) {
+                alert(`Maaf, stok tidak mencukupi! Sisa stok saat ini: ${availableStock}`);
+                return; // Batalkan proses
+            }
+            // --- BATAS TAMBAHAN ---
+
+            let unitPrice = productData.basePrice;
+
+            const cartItem = {
+                id: productData.id,
+                name: productData.name,
+                image: productData.image,
+                color: currentSelection.color,
+                size: currentSelection.size,
+                qty: currentSelection.qty,
+                price: unitPrice,
+                totalPrice: unitPrice * currentSelection.qty,
+                stock: productData.stock,
+                weight: productData.weight 
+            };
+
+            let cart = [];
+            try {
+                cart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+            } catch(e) { cart = []; }
+
+            const existingIndex = cart.findIndex(i => 
+                i.id === cartItem.id && 
+                i.color === cartItem.color && 
+                i.size === cartItem.size
+            );
+
+            // Validasi Stok lagi jika item sudah ada di cart (Total Qty di cart + Qty baru vs Stok)
+            let totalQtyInCart = existingIndex !== -1 ? cart[existingIndex].qty : 0;
+            if (totalQtyInCart + cartItem.qty > availableStock) {
+                alert(`Anda sudah memiliki ${totalQtyInCart} barang ini di keranjang. Stok tidak cukup untuk menambah lagi.`);
+                return;
+            }
+
+            if (existingIndex !== -1) {
+                cart[existingIndex].qty += cartItem.qty;
+                cart[existingIndex].totalPrice += cartItem.totalPrice;
+            } else {
+                cart.push(cartItem);
+            }
+
+            localStorage.setItem('shoppingCart', JSON.stringify(cart));
+            
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="bi bi-check-lg"></i> Berhasil';
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-success');
+            
+            setTimeout(() => {
+                window.location.href = 'cart.html'; 
+            }, 800);
+        });
+    });
+
+    // --- 7. FITUR TAMBAHAN (Review & Share) ---
+    if (els.reviewForm) {
+        els.reviewForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('review-name').value;
+            alert(`Terima kasih ${name}! Ulasan Anda untuk warna ${currentSelection.color} berhasil dikirim.`);
+            els.reviewForm.reset();
+        });
+    }
+
+    if(els.shareBtn) {
+        els.shareBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(window.location.href);
+            alert("Link produk berhasil disalin!");
+        });
+    }
+    
+    // Inisialisasi tampilan pertama
+    updateView();
+});
+</script>
+
+<script>
+  // Ambil tombolnya
+  const btnLike = document.querySelector('.wishlist-btn');
+
+  // Pasang fungsi ketika diklik
+  btnLike.addEventListener('click', function() {
+    
+    // 1. Ubah warna tombol jadi merah (toggle class bootstrap)
+    this.classList.toggle('text-danger');
+    this.classList.toggle('border-danger'); // Opsional: biar garis pinggir juga merah
+
+    // 2. Ganti icon hati jadi penuh
+    const icon = this.querySelector('i');
+    icon.classList.toggle('bi-heart');      // Hapus yg kosong
+    icon.classList.toggle('bi-heart-fill'); // Tambah yg penuh
+  });
+</script>
+</body>
+
+</html>
